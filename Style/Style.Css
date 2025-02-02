@@ -1,0 +1,306 @@
+*{
+padding: 0;
+box-sizing: border-box;
+/* margin:0 auto ; */
+ font-family: 'Gill Sans','Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+}
+.all-web{
+
+background-image: url(../assets/bg.png);
+
+}
+
+main{
+  background:-webkit-repeating-linear-gradient(bottom,#179800,white);
+}
+body{
+  max-width: 1540px;
+  margin:  0 auto;
+}
+.navber-max-width{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  max-width: 1440;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+}
+.nav-logo{
+   display: flex;
+    height: 80px;
+    width: 50px;
+    gap: 20px ;
+    max-width: 1440px;
+ 
+}
+
+.logo-school{
+    font-size: 2rem;
+    padding: -20px;
+     /* font-weight: 600;
+   display: flex ;
+     */
+} 
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    font-size: x-large; 
+}
+
+.nav-item{
+list-style: none;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.g{
+
+  color: green;
+}
+.r{
+  color: red
+}
+.y{
+  color: aqua;
+}
+.bc{
+  color: tomato;
+}
+.nav-btn{
+    width: 200px;
+    height: 70px;
+    color:white;
+    background-color:tomato;
+    border-radius: 20px;
+    margin-top: -10px;
+    font-size: x-large;
+
+
+}
+
+.nav-btn:hover{
+
+  width: 210px;
+  height: 80px;
+  background-color:rgb(0, 217, 255);
+}
+/* nav end */
+
+/* home-start */
+.laft-text{
+  padding-top: 50px;
+  justify-content: center;
+  font-size: 2rem;
+  margin-left:  30px;
+}
+.marquee{
+  font-size:x-large;
+  color: tomato;
+  margin-top: 10px;
+}
+.Home-container{
+  /* max-width: 1440px; */
+  margin: 0 auto;
+ margin-top: 100px;
+ display: flex;
+ margin-bottom: 100px;
+ justify-content: space-between;
+}
+
+.laft-text{
+  padding: 20px;
+  font-size: 2rem;
+  
+}
+
+.frist-part{
+
+  color: hsla(9, 91%, 69%, 0.943);
+}
+.last-part{
+  color: rgb(28, 144, 194);
+  
+}
+
+.drak-color{
+  font-size: large;
+}
+.enroll-btn{
+  width: 200px;
+  height: 70px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-size: x-large;
+  
+  
+  
+}
+.enroll-btn:hover{
+  width: 210px;
+  height: 80px;
+  background-color: rgb(0, 106, 255);
+
+}
+
+.hero-emg{
+  margin-left: 40px;
+}
+
+/* nav section end */
+.head-title{
+
+  text-align: center;
+  font-size: xx-large;
+  margin-bottom: 40px;
+ 
+}
+
+
+.all-kinder-card{
+  max-width: 1480px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 100px;
+  margin: 0 auto;
+  gap: 30px;
+  /* text-align: center;
+   */
+
+}
+.kinder-card{
+width: 450px;
+height: 550px;
+box-shadow: 3px 3px 3px 3px;
+/* background-color:-webkit-linear-gradient(bottom,red,white); */
+border-radius: 30px; 
+text-align: center;
+padding: 30px;
+}
+
+.first-card{
+  background:-webkit-linear-gradient(bottom,green,white);
+}
+
+
+.second-card{
+  background:-webkit-linear-gradient(bottom,red,white);
+}
+
+.thard-card{
+  background:-webkit-linear-gradient(bottom,blue,white);
+}
+
+.icon-arow{
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+  /* our stroies */
+.our-stories-allcard{
+  font: size 8rem;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+/* stories all card */
+.stories-all-card{
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+
+}
+
+.laft-big-card{
+  height: 700px;
+  width: 580px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.img-style{
+ width: 650px;
+
+}
+.big-btn{
+width: 200px;
+height: 50px;
+margin-top: -50px;
+background-color: rgb(20, 230, 216);
+border-radius: 10px;
+border: none;
+margin-left: 10px;
+
+}
+.big-btn:hover{
+  width: 200px;
+  height: 60px;
+  color: rgb(15, 14, 14);
+  background-color: rgb(236, 236, 9);
+}
+
+.our-stories{
+  text-align: center;
+}
+
+.img-style{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+.big-img-style{
+  width: 580px;
+}
+.big-card-h3{
+  margin: 5px;
+  font-size: 25px;
+}
+  
+.left-big-card{
+  height: 600px;
+  width: 582px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+}
+.big-card-p{
+  font-size: 20px;
+  color: black;
+  padding:5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* small card section  */
+.first-small-card{
+  background-color: white;
+  height: 350px;
+  width: 295px;
+  border: 2px solid black;
+}
+.our-stories-allcard{
+  display: flex;
+  gap: 30px;
+  margin-left: 30px;
+}
+.small-cards{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+footer{
+  background-color: cornflowerblue;
+  /* height: 300px; */
+  
+}
