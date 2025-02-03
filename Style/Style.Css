@@ -12,7 +12,7 @@ background-image: url(../assets/bg.png);
 }
 
 main{
-  background:-webkit-repeating-linear-gradient(bottom,#179800,white);
+  background:-webkit-repeating-linear-gradient(bottom,rgba(232, 239, 105, 0.952),white);
 }
 body{
   max-width: 1540px;
@@ -220,6 +220,7 @@ padding: 30px;
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
+  
 
 }
 
@@ -248,7 +249,7 @@ margin-left: 10px;
   width: 200px;
   height: 60px;
   color: rgb(15, 14, 14);
-  background-color: rgb(236, 236, 9);
+  background-color: rgb(229, 193, 13);
 }
 
 .our-stories{
@@ -299,8 +300,80 @@ margin-left: 10px;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
 }
-footer{
-  background-color: cornflowerblue;
-  /* height: 300px; */
+.view-all{
+  display:flex;
+  justify-content: center;
+
+}
+
+.p-btn{
+  width: 200px;
+  height:60px;
+  margin-bottom: 50px;
+  background-color: rgba(10, 11, 11, 0.879);
+  color: white;
+  border-radius: 10px;
+  border: none;
   
+}
+.card-btn{
+  background-color: rgba(145, 198, 12, 0.927);
+  color: rgb(29, 26, 26);
+}
+
+.card-btn2{
+  background-color:rgb(219, 106, 25);
+}
+
+/* main end */
+/* fotter start */
+
+footer{
+  background-color:rgb(0, 217, 255);
+
+}
+.left-logo{
+  max-width: 1440px;
+  height: 500px;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+   margin-left: 30px;
+   margin:0 auto;
+   color: white;
+   padding-top:50px;
+}
+.footer-header{
+  font-size:30px;
+  margin-top: -50px;
+  margin-left: 80px;
+}
+.text-logo-p{
+  font-weight:500;
+  font-size:20px;
+  padding-bottom: 10px;
+}
+.footer-logo{
+  display: flex;
+  padding-top: 30px;
+}
+
+.about-school{
+  padding:10px;
+  margin-left: -30px;
+
+}
+.about-school{
+  font-size: 30px;
+ 
+}
+
+.snd-line{
+  list-style: none;
+
+}
+
+.right-fotter{
+  font-size: x-large;
+  padding-top: 25px;
 }
